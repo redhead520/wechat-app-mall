@@ -1,5 +1,5 @@
 const app = getApp()
-const WXAPI = require('apifm-wxapi')
+const WXAPI = require('odoo-wxapi')
 
 var sliderWidth = 96;
 Page({

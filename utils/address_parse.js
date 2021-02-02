@@ -1,4 +1,4 @@
-const WXAPI = require('apifm-wxapi')
+const WXAPI = require('odoo-wxapi')
 var addressList = []; //地址列表
 
 var smartObj = {};

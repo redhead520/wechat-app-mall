@@ -1,6 +1,6 @@
 const app = getApp()
 const CONFIG = require('../../config.js')
-const WXAPI = require('apifm-wxapi')
+const WXAPI = require('odoo-wxapi')
 const AUTH = require('../../utils/auth')
 const wxpay = require('../../utils/pay.js')
 

@@ -39,7 +39,7 @@
 
 ## 本项目使用了下面的组件，在此鸣谢
 
-- [接口 SDK](https://github.com/gooking/apifm-wxapi)
+- [接口 SDK](https://github.com/gooking/odoo-wxapi)
 
 - [api工厂](https://admin.it120.cc)
 

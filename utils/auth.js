@@ -1,4 +1,4 @@
-const WXAPI = require('apifm-wxapi')
+const WXAPI = require('odoo-wxapi')
 import Dialog from '@vant/weapp/dialog/dialog'
 
 async function checkSession(){

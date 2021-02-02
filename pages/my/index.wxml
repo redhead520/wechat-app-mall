@@ -17,7 +17,7 @@
       <view class="nick">{{ apiUserInfoMap.base.nick }}</view>
     </view>
   </view>
-  <view class="asset">
+  <!-- <view class="asset">
     <view class='item' bindtap='goAsset'>
       <view class="amount">{{balance}}</view>
       <view>余额</view>
@@ -36,7 +36,7 @@
         <view>成长值</view>
       </view>
     </navigator>
-  </view>
+  </view> -->
   <view class="space van-hairline--bottom"></view>
   <van-cell title="我的订单" value="更多" is-link url="/pages/order-list/index" />
   <van-grid clickable column-num="5">
@@ -46,7 +46,7 @@
     <van-grid-item icon="flower-o" text="待评价" badge="{{count_id_no_reputation}}" bindtap='goOrder' data-type="3" />
     <van-grid-item icon="after-sale" text="售后" bindtap='goOrder' data-type="99" />
   </van-grid>
-  <van-cell title="常用功能" />
+  <!-- <van-cell title="常用功能" />
   <van-grid clickable>
     <van-grid-item wx:if="{{!canHX}}" icon="scan" text="扫码核销" bind:click="scanOrderCode" />
     <van-grid-item icon="paid" text="优惠买单" url="/pages/maidan/index" />
@@ -55,7 +55,7 @@
     <van-grid-item icon="bill-o" text="开票记录" url="/pages/invoice/list" />
     <van-grid-item icon="coupon-o" text="优惠券" url="/pages/coupons/index" link-type="switchTab" />
     <van-grid-item icon="calendar-o" text="签到赚积分" url="/pages/sign/index" />
-  </van-grid>
+  </van-grid> -->
   <!-- 老样式 -->
   <view class="container">
     <block wx:if="{{apiUserInfoMap.peisongMember && apiUserInfoMap.peisongMember.type != 0}}">
@@ -84,15 +84,15 @@
     </block>
   </view>
 
-  <van-cell-group title="三级分销">
+  <!-- <van-cell-group title="三级分销">
     <van-cell wx:if="{{!apiUserInfoMap.base.isSeller}}" title="成为分销商" is-link url="/pages/fx/apply-status" />
     <van-cell wx:else title="分销中心" is-link url="/pages/fx/apply-status" />
     <van-cell wx:if="{{apiUserInfoMap.base.isSeller}}" title="销售团队" is-link url="/pages/fx/members" />
     <van-cell wx:if="{{apiUserInfoMap.base.isSeller}}" title="佣金明细" is-link url="/pages/fx/commisionLog" />
-  </van-cell-group>
+  </van-cell-group> -->
   <van-cell-group title="其他功能">
-    <van-cell title="积分券兑换积分" is-link url="/pages/score-excharge/index" />
-    <van-cell title="积分兑换成长值" is-link url="/pages/score-excharge/growth" />
+    <!-- <van-cell title="积分券兑换积分" is-link url="/pages/score-excharge/index" />
+    <van-cell title="积分兑换成长值" is-link url="/pages/score-excharge/growth" /> -->
     <van-cell title="帮助中心" is-link url="/pages/help/index" />
     <van-cell title="个人信息" is-link url="/pages/my/info-menu" />
     <van-cell title="系统设置" is-link url="/pages/my/setting" />

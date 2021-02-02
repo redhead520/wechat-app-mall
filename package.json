@@ -5,7 +5,7 @@
   "main": "app.js",
   "dependencies": {
     "@vant/weapp": "^1.6.6",
-    "apifm-wxapi": "^3.32.0",
+    "odoo-wxapi": "^0.0.1",
     "wxa-plugin-canvas": "^1.1.12",
     "wxbarcode": "^1.0.2"
   },

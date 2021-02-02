@@ -1,4 +1,4 @@
-const WXAPI = require('apifm-wxapi')
+const WXAPI = require('odoo-wxapi')
 const app = getApp();
 const CONFIG = require('../../config.js')
 const AUTH = require('../../utils/auth')

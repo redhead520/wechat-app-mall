@@ -1,4 +1,4 @@
-const WXAPI = require('apifm-wxapi')
+const WXAPI = require('odoo-wxapi')
 const CONFIG = require('../../config.js')
 //获取应用实例
 var app = getApp();
